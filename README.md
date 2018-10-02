@@ -142,7 +142,7 @@ if __name__ == '__main__':
 When we run this module without any arguments Qgen will first run the testbench, then convert into VHDL (or Verilog), and finally generate the xxx\_hw.tcl.  
 The simulation output:
  
-![image](C:\qdesigns\MyHDL\Source\avalon\ST_elementswap\tb_ST_elementswap_vcd.png)
+![image](tb_ST_elementswap_vcd.png)
 
 The generated VHDL-code is as trivial as you have expected:
 
@@ -396,7 +396,7 @@ proc log2ceiling { num } {
 
 And this is how Qsys sees our module:  
 
-![image](C:\qdesigns\MyHDL\Source\avalon\ST_elementswap\tb_ST_elementswap_Qsys.png)
+![image](tb_ST_elementswap_Qsys.png)
 
-![image](C:\qdesigns\MyHDL\Source\avalon\ST_elementswap\tb_ST_elementswap_Qsys-system.png)
+![image](tb_ST_elementswap_Qsys-system.png)
 
